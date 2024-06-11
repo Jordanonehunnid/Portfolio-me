@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/About-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+
+
+/* This is my nav styling */
+  nav{
+    
+    padding: 15px;
+    background-color: orange;
+}
+/* This is my nav text styling */
+a{
+    
+  color: white;
+  padding: 70px;
+  text-decoration: none;  
+}
+
+a:hover{
+    background-color:transparent;
+    color: skyblue;
+    padding: 70px;
+
+}
+/* End of my nav styling */
+
+
+/* about styling */
+.content {
+    
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    color: white;
+    margin: 5% 15%;
+    grid-column-gap: 10px;
+}
+
+
+
+/* image styling */
+.aboutImg img {
+    
+    height: 600px;
+    width: 600px;
+    
+}
+
+
+/* My footer */
+footer{
+    background-color: #111;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    bottom: 0;
+}
+
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
